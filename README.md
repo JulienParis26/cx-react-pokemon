@@ -36,8 +36,8 @@ $ npm run server <port>
 ```shell
 $ npm run client
 ```
-> :warning: **If you have an error like:** ***Module not found: Can't resolve 'react-router-dom'***: 
-> run the command: 
+> :warning: **If you have an error like:** ***Module not found: Can't resolve 'react-router-dom'***. 
+> run the command below in your client folder: 
 ```shell 
 npm install -S react-router-dom
 ```

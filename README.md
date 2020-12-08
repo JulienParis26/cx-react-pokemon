@@ -37,7 +37,7 @@ $ npm run server <port>
 $ npm run client
 ```
 > :warning: **If you have an error like:** ***Module not found: Can't resolve 'react-router-dom'***. 
-> run the command below in your client folder: 
+###### run the command below in your client folder: 
 ```shell 
 npm install -S react-router-dom
 ```
@@ -50,3 +50,6 @@ npm install -S react-router-dom
 |GET	| /pokemons/:id	| this route should display a single pokemon's found on the daily pokedex.json|
 |POST	| /pokemons/:nom | this route should add a new pokemon on the pokedex.|
 |DELETE	| /pokemons/:id	| this route should allow you to delete a specific pokemon|
+
+## Demo
+![demo](https://i.ibb.co/VS9r5NL/Demo-pokedex.png)

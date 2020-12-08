@@ -5,33 +5,31 @@ Let's talk about Pokemons with **NodeJS** and **React**.
 
 ## Utilisation (step by step) 
 
-**To start**:
-
-###### In shell, open the server folder.
+###### 1. In a first shell, open the server folder.
 ```shell
 $ cd server
 $ npm install
 ```
 
-###### In a second shell, open the client folder.
+###### 2. In a second shell, open the client folder.
 ```shell
 $ cd client
 $ npm install
 ```
 
-###### To seed the database :
+###### 3. To seed the database :
 ```shell
 $ cd server
 $ npm run seed
 ```
 
-###### To start the server, open the server folder.
+###### 4. To start the server, open the server folder.
 ```shell
 $ cd server
 $ npm run server <port>
 ```
 
-###### To start the client, open the client folder.
+###### 5. To start the client, open the client folder.
 ```shell
 $ cd client
 $ npm run client
@@ -39,7 +37,7 @@ $ npm run client
 > :warning: **If you have an error like:** ***Module not found: Can't resolve 'react-router-dom'***. 
 ```shell 
 $ cd client
-npm install -S react-router-dom
+$ npm install -S react-router-dom
 ```
 
 ## Routes utilisation

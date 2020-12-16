@@ -32,7 +32,7 @@ $ npm run server <port>
 ###### 5. To start the client, open the client folder.
 ```shell
 $ cd client
-$ npm run client
+$ npm run start
 ```
 > :warning: **If you have an error like:** ***Module not found: Can't resolve 'react-router-dom'***. 
 ```shell 
